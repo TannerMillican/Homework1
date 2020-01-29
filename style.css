@@ -31,9 +31,12 @@ body {
     background-color: #eee;
     margin-top: 20px;
     margin-left: 15%;
-    padding: 30px;
-    height: 250px;
-    width: 495px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 280px;
+    width: 525px;
+    z-index: 1;
 }
 
 #Aside {
@@ -41,22 +44,57 @@ body {
     text-align: center;
     background: #ebebeb;
     height: 250px;
-    width: 385px;
-    padding: 30px;
+    width: 425px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
 }
 
-#full {
-    clear: left;
+
+
+#Article {
+    text-align: center;
+    position: relative;
+    background: #777;
+    color: #ebebeb;
+    height: 200px;
+    bottom: 7px;
+    padding-top: 30px;
+    margin-top: 25px;
+    z-index: 2;
 }
 
-aside {
-    margin-left: 10px;
-    margin-right: 10px;
-    color: #ebebeb;
-    background: #777;
+#h1 {
+    text-align: center;
+    position: relative;
+    background: #ebebeb;
+    color: #777;
+    top: -160px;
+    height: 40px;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    z-index: 2;
+}
+
+#p {
+    text-align: center;
+    position: relative;
+    background: #ebebeb;
+    color: #777;
+    top: -150px;
+    height: 40px;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    z-index: 2;
+}
+
+#full {
+    clear: left;
 }
 
 #Footer {
